@@ -24,7 +24,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,15 +32,15 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/*removed the class notation for all header*/
+/*remove the class notation for all header*/
 
 a {
     color: #ffffff;
@@ -71,13 +71,14 @@ figure {
 }
 
 main {
-/*changed .content to section*/
+/*change .content to section*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 section {
+/*change .benefits to section*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -200,4 +201,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
-/*removed all class notation for all footer */
+/*remove class notation for footer */
