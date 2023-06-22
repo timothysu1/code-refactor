@@ -40,7 +40,7 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/*remove the class notation for all header*/
+/*remove the class notation for all header and chang divs to navs*/
 
 a {
     color: #ffffff;
@@ -51,7 +51,7 @@ p {
     font-size: 16px;
 }
 
-figure {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -70,15 +70,14 @@ figure {
     margin-left: 25px;
 }
 
-main {
+.content {
 /*change .content to section*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-section {
-/*change .benefits to section*/
+.benefits { /*change .benefits to section*/
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -198,7 +197,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
-/*remove class notation for footer */
+/*remove class notation for footer and change h2 to h4*/
