@@ -10,7 +10,7 @@
 
 ## Description 
 
-[Visit the Deployed Site](https://youtu.be/BFyeuLhjcPY)
+[Visit the Deployed Site](https://timothysu1.github.io/horiseon-code-refactor)
 
 This webpage serves as a landing page for the company Horiseon. The page's source code has been refactored in order to increase the accessibility of the page and optimize it for search engines. The basic process of pulling from Gitlab and pushing to your own repository on Github was learned during this process. 
 
@@ -20,87 +20,13 @@ Below shows what the site looks like.
 
 ![Site Langing Page](./assets/readme-assets/site.gif)
 
+## Setting Up the Development Environment
 
-## Table of Contents (Optional)
-
-If your README is very long, add a table of contents to make it easy for users to find what they need.
-
-* [Code Refactor Example](#code-refactor-example)
-* [Usage](#usage)
-* [Learning Points](#learning-points)
-* [Author Info](#author-info)
-* [Credits](#credits)
-* [License](#license)
-
-
-## Code Refactor Example
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
-
-```html
-<div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-```
-
-Converting the above non-semantic div with the class of 'header' to an appropriate [<header> semantic element](https://www.w3schools.com/html/html5_semantic_elements.asp). 
-
-```html
-<header>
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#search-engine-optimization">Search Engine Optimization</a>
-                </li>
-                <li>
-                    <a href="#online-reputation-management">Online Reputation Management</a>
-                </li>
-                <li>
-                    <a href="#social-media-marketing">Social Media Marketing</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-```
-
-This change require some additional modification to the CSS selector: 
-
-```css
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-```
-
-No longer targeting the element on the page with the class of 'header' but instead the css selector targeting the 'header' element 
-
-```css
-header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-```
+1. Setup SSH keys with both GitHub and GitLab
+2. Create a repository in Github and clone it to your computer 
+3. Pull necessary content from GitLab
+4. Move the content onto the local repository that was just created
+5. Open the repository on Visual Studio Code
 
 ## Usage 
 
