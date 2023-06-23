@@ -59,5 +59,4 @@ The navigator in the top right of the page can be used move to different portion
 
 ## License
 
-The last section of a good README is a license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, use [https://choosealicense.com/](https://choosealicense.com/)
-
+Please refer to license in the repo.
