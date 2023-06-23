@@ -91,7 +91,7 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* consolidate benefits */
 
 h3 {
 /*remove redundant h3 benefits*/
@@ -99,23 +99,12 @@ h3 {
     text-align: center;
 }
 
-.benefit-lead img {
+.benefits article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/*consolidate benefits img  */
 
 .content article{
     margin-bottom: 20px;
@@ -125,20 +114,12 @@ h3 {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* cosolidate content */
+/* consolidate content */
 
-.search-engine-optimization img {
+.content article img {
     max-height: 200px;
 }
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
+/* consolidate content img */
 h2 {
     margin-bottom: 20px;
     font-size: 36px;
